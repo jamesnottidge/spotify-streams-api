@@ -1,0 +1,17 @@
+{
+  "name": "scrape",
+  "version": "1.0.0",
+  "description": "sd",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "James",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^22.3.0"
+  },
+  "devDependencies": {
+    "prisma": "^5.10.2"
+  }
+}
