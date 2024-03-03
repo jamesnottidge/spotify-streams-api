@@ -18,10 +18,14 @@ model Artist {
 
   id        Int      @id @default(autoincrement())
 
+  name      String
+
   createdAt DateTime @default(now())
 
   updatedAt DateTime @updatedAt
 
   spotifyId     String   @db.VarChar(255)
+
+  youtubeId     String   @db.VarChar(255)
 
 }

@@ -1,0 +1,350 @@
+{
+  "data": {
+    "albumUnion": {
+      "__typename": "Album",
+      "playability": { "playable": true },
+      "tracks": {
+        "items": [
+          {
+            "track": {
+              "artists": {
+                "items": [
+                  {
+                    "profile": { "name": "Billie Eilish" },
+                    "uri": "spotify:artist:6qqNVTkY8uBg9cP3Jd7DAH"
+                  }
+                ]
+              },
+              "associations": { "associatedVideos": { "totalCount": 0 } },
+              "contentRating": { "label": "NONE" },
+              "discNumber": 1,
+              "duration": { "totalMilliseconds": 13578 },
+              "name": "!!!!!!!",
+              "playability": { "playable": true },
+              "playcount": "128954",
+              "relinkingInformation": null,
+              "saved": false,
+              "trackNumber": 1,
+              "uri": "spotify:track:0rQtoQXQfwpDW0c7Fw1NeM"
+            },
+            "uid": "61c1d3ce852d59d77f5d"
+          },
+          {
+            "track": {
+              "artists": {
+                "items": [
+                  {
+                    "profile": { "name": "Billie Eilish" },
+                    "uri": "spotify:artist:6qqNVTkY8uBg9cP3Jd7DAH"
+                  }
+                ]
+              },
+              "associations": { "associatedVideos": { "totalCount": 0 } },
+              "contentRating": { "label": "NONE" },
+              "discNumber": 1,
+              "duration": { "totalMilliseconds": 194087 },
+              "name": "bad guy",
+              "playability": { "playable": true },
+              "playcount": "2450933389",
+              "relinkingInformation": null,
+              "saved": false,
+              "trackNumber": 2,
+              "uri": "spotify:track:2Fxmhks0bxGSBdJ92vM42m"
+            },
+            "uid": "c7e694e90d679feb796f"
+          },
+          {
+            "track": {
+              "artists": {
+                "items": [
+                  {
+                    "profile": { "name": "Billie Eilish" },
+                    "uri": "spotify:artist:6qqNVTkY8uBg9cP3Jd7DAH"
+                  }
+                ]
+              },
+              "associations": { "associatedVideos": { "totalCount": 0 } },
+              "contentRating": { "label": "NONE" },
+              "discNumber": 1,
+              "duration": { "totalMilliseconds": 243725 },
+              "name": "xanny",
+              "playability": { "playable": true },
+              "playcount": "451170654",
+              "relinkingInformation": null,
+              "saved": false,
+              "trackNumber": 3,
+              "uri": "spotify:track:4QIo4oxwzzafcBWkKjDpXY"
+            },
+            "uid": "bd089eb0310ca7407f57"
+          },
+          {
+            "track": {
+              "artists": {
+                "items": [
+                  {
+                    "profile": { "name": "Billie Eilish" },
+                    "uri": "spotify:artist:6qqNVTkY8uBg9cP3Jd7DAH"
+                  }
+                ]
+              },
+              "associations": { "associatedVideos": { "totalCount": 0 } },
+              "contentRating": { "label": "NONE" },
+              "discNumber": 1,
+              "duration": { "totalMilliseconds": 180952 },
+              "name": "you should see me in a crown",
+              "playability": { "playable": true },
+              "playcount": "830486256",
+              "relinkingInformation": null,
+              "saved": false,
+              "trackNumber": 4,
+              "uri": "spotify:track:3XF5xLJHOQQRbWya6hBp7d"
+            },
+            "uid": "b43976576971e148dd64"
+          },
+          {
+            "track": {
+              "artists": {
+                "items": [
+                  {
+                    "profile": { "name": "Billie Eilish" },
+                    "uri": "spotify:artist:6qqNVTkY8uBg9cP3Jd7DAH"
+                  }
+                ]
+              },
+              "associations": { "associatedVideos": { "totalCount": 1 } },
+              "contentRating": { "label": "NONE" },
+              "discNumber": 1,
+              "duration": { "totalMilliseconds": 168839 },
+              "name": "all the good girls go to hell",
+              "playability": { "playable": true },
+              "playcount": "618724466",
+              "relinkingInformation": null,
+              "saved": false,
+              "trackNumber": 5,
+              "uri": "spotify:track:6IRdLKIyS4p7XNiP8r6rsx"
+            },
+            "uid": "3231308a2b743b2768ec"
+          },
+          {
+            "track": {
+              "artists": {
+                "items": [
+                  {
+                    "profile": { "name": "Billie Eilish" },
+                    "uri": "spotify:artist:6qqNVTkY8uBg9cP3Jd7DAH"
+                  }
+                ]
+              },
+              "associations": { "associatedVideos": { "totalCount": 0 } },
+              "contentRating": { "label": "NONE" },
+              "discNumber": 1,
+              "duration": { "totalMilliseconds": 221543 },
+              "name": "wish you were gay",
+              "playability": { "playable": true },
+              "playcount": "766985866",
+              "relinkingInformation": null,
+              "saved": false,
+              "trackNumber": 6,
+              "uri": "spotify:track:3Fj47GNK2kUF0uaEDgXLaD"
+            },
+            "uid": "7720e5d52dd2337977cc"
+          },
+          {
+            "track": {
+              "artists": {
+                "items": [
+                  {
+                    "profile": { "name": "Billie Eilish" },
+                    "uri": "spotify:artist:6qqNVTkY8uBg9cP3Jd7DAH"
+                  }
+                ]
+              },
+              "associations": { "associatedVideos": { "totalCount": 1 } },
+              "contentRating": { "label": "NONE" },
+              "discNumber": 1,
+              "duration": { "totalMilliseconds": 196077 },
+              "name": "when the party's over",
+              "playability": { "playable": true },
+              "playcount": "1750227767",
+              "relinkingInformation": null,
+              "saved": false,
+              "trackNumber": 7,
+              "uri": "spotify:track:43zdsphuZLzwA9k4DJhU0I"
+            },
+            "uid": "b8f82ae6138cc44e5664"
+          },
+          {
+            "track": {
+              "artists": {
+                "items": [
+                  {
+                    "profile": { "name": "Billie Eilish" },
+                    "uri": "spotify:artist:6qqNVTkY8uBg9cP3Jd7DAH"
+                  }
+                ]
+              },
+              "associations": { "associatedVideos": { "totalCount": 0 } },
+              "contentRating": { "label": "NONE" },
+              "discNumber": 1,
+              "duration": { "totalMilliseconds": 173201 },
+              "name": "8",
+              "playability": { "playable": true },
+              "playcount": "298274128",
+              "relinkingInformation": null,
+              "saved": false,
+              "trackNumber": 8,
+              "uri": "spotify:track:6X29iaaazwho3ab7GNue5r"
+            },
+            "uid": "c10ca2d5a83a60150926"
+          },
+          {
+            "track": {
+              "artists": {
+                "items": [
+                  {
+                    "profile": { "name": "Billie Eilish" },
+                    "uri": "spotify:artist:6qqNVTkY8uBg9cP3Jd7DAH"
+                  }
+                ]
+              },
+              "associations": { "associatedVideos": { "totalCount": 0 } },
+              "contentRating": { "label": "NONE" },
+              "discNumber": 1,
+              "duration": { "totalMilliseconds": 179889 },
+              "name": "my strange addiction",
+              "playability": { "playable": true },
+              "playcount": "490949223",
+              "relinkingInformation": null,
+              "saved": false,
+              "trackNumber": 9,
+              "uri": "spotify:track:3Tc57t9l2O8FwQZtQOvPXK"
+            },
+            "uid": "3d2eea0b9151a6942003"
+          },
+          {
+            "track": {
+              "artists": {
+                "items": [
+                  {
+                    "profile": { "name": "Billie Eilish" },
+                    "uri": "spotify:artist:6qqNVTkY8uBg9cP3Jd7DAH"
+                  }
+                ]
+              },
+              "associations": { "associatedVideos": { "totalCount": 1 } },
+              "contentRating": { "label": "NONE" },
+              "discNumber": 1,
+              "duration": { "totalMilliseconds": 193143 },
+              "name": "bury a friend",
+              "playability": { "playable": true },
+              "playcount": "993123040",
+              "relinkingInformation": null,
+              "saved": false,
+              "trackNumber": 10,
+              "uri": "spotify:track:4SSnFejRGlZikf02HLewEF"
+            },
+            "uid": "3042930263a09430d57b"
+          },
+          {
+            "track": {
+              "artists": {
+                "items": [
+                  {
+                    "profile": { "name": "Billie Eilish" },
+                    "uri": "spotify:artist:6qqNVTkY8uBg9cP3Jd7DAH"
+                  }
+                ]
+              },
+              "associations": { "associatedVideos": { "totalCount": 0 } },
+              "contentRating": { "label": "NONE" },
+              "discNumber": 1,
+              "duration": { "totalMilliseconds": 156370 },
+              "name": "ilomilo",
+              "playability": { "playable": true },
+              "playcount": "405167788",
+              "relinkingInformation": null,
+              "saved": false,
+              "trackNumber": 11,
+              "uri": "spotify:track:7qEKqBCD2vE5vIBsrUitpD"
+            },
+            "uid": "4d90dbd25a8d935ac7de"
+          },
+          {
+            "track": {
+              "artists": {
+                "items": [
+                  {
+                    "profile": { "name": "Billie Eilish" },
+                    "uri": "spotify:artist:6qqNVTkY8uBg9cP3Jd7DAH"
+                  }
+                ]
+              },
+              "associations": { "associatedVideos": { "totalCount": 0 } },
+              "contentRating": { "label": "NONE" },
+              "discNumber": 1,
+              "duration": { "totalMilliseconds": 242652 },
+              "name": "listen before i go",
+              "playability": { "playable": true },
+              "playcount": "528698142",
+              "relinkingInformation": null,
+              "saved": false,
+              "trackNumber": 12,
+              "uri": "spotify:track:0tMSssfxAL2oV8Vri0mFHE"
+            },
+            "uid": "4782f99d9693f483c57c"
+          },
+          {
+            "track": {
+              "artists": {
+                "items": [
+                  {
+                    "profile": { "name": "Billie Eilish" },
+                    "uri": "spotify:artist:6qqNVTkY8uBg9cP3Jd7DAH"
+                  }
+                ]
+              },
+              "associations": { "associatedVideos": { "totalCount": 0 } },
+              "contentRating": { "label": "NONE" },
+              "discNumber": 1,
+              "duration": { "totalMilliseconds": 291796 },
+              "name": "i love you",
+              "playability": { "playable": true },
+              "playcount": "877115014",
+              "relinkingInformation": null,
+              "saved": false,
+              "trackNumber": 13,
+              "uri": "spotify:track:6CcJMwBtXByIz4zQLzFkKc"
+            },
+            "uid": "db98ddb09d6a76a8194c"
+          },
+          {
+            "track": {
+              "artists": {
+                "items": [
+                  {
+                    "profile": { "name": "Billie Eilish" },
+                    "uri": "spotify:artist:6qqNVTkY8uBg9cP3Jd7DAH"
+                  }
+                ]
+              },
+              "associations": { "associatedVideos": { "totalCount": 0 } },
+              "contentRating": { "label": "NONE" },
+              "discNumber": 1,
+              "duration": { "totalMilliseconds": 119409 },
+              "name": "goodbye",
+              "playability": { "playable": true },
+              "playcount": "237493387",
+              "relinkingInformation": null,
+              "saved": false,
+              "trackNumber": 14,
+              "uri": "spotify:track:3LgWsmilsrWXiPYQFRD0T7"
+            },
+            "uid": "75302242eeeec759c656"
+          }
+        ],
+        "totalCount": 14
+      }
+    }
+  },
+  "extensions": {}
+}
