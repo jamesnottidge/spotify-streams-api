@@ -3,7 +3,7 @@ import { PrismaClient } from "@prisma/client";
 
 let prisma: PrismaClient;
 
-const getPrismaClient = () => {
+export const getDbClient = () => {
   if (!prisma) {
     prisma = new PrismaClient();
   }

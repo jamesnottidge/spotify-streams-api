@@ -14,9 +14,11 @@ datasource db {
 }
 
 model Artist {
-    id Int @id @default(autoincrement())
+    id String @id @default(uuid())
 
     name String
+
+    followers Int @db.Int
 
     createdAt DateTime @default(now())
 
@@ -24,16 +26,24 @@ model Artist {
 
     spotifyId String @db.VarChar(255)
 
-    songs Song[]
+    genres Genre[]
+
+    image ArtistImage?
+
+    tracks Track[]
 
 }
 
-model Song {
-    id Int @id @default(autoincrement())
+model Track {
+    id String @id @default(uuid())
 
-    title String @db.VarChar(255)
+    name String @db.VarChar(255)
 
-    artistId Int 
+    duration Int @db.Int
+
+    image TrackImage?
+
+    artistId String
 
     artist Artist @relation(fields: [artistId], references: [id])
 
@@ -45,7 +55,54 @@ model Song {
 
     spotifyRevenue Float @db.Float
 
-    @@index([artistId], map: "artistId")
 
+    @@index([artistId], map: "artistId")
 }
 
+model Genre {
+    id Int @id @default(autoincrement())
+
+    name String @db.VarChar(255)
+
+    artists Artist[]
+
+    createdAt DateTime @default(now())
+
+    updatedAt DateTime @updatedAt
+}
+
+model ArtistImage {
+    id Int @id @default(autoincrement())
+
+    url String @db.VarChar(255)
+
+    height Int @db.Int
+
+    width Int @db.Int
+
+    artistId String? @unique
+
+    artist Artist? @relation(fields: [artistId], references: [id])
+
+    createdAt DateTime @default(now())
+
+    updatedAt DateTime @updatedAt
+}
+
+model TrackImage {
+    id Int @id @default(autoincrement())
+
+    url String @db.VarChar(255)
+
+    height Int @db.Int
+
+    width Int @db.Int
+
+    trackId String? @unique
+
+    track Track? @relation(fields: [trackId], references: [id])
+
+    createdAt DateTime @default(now())
+
+    updatedAt DateTime @updatedAt
+}

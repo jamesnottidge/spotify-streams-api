@@ -1,0 +1,1 @@
+export { getArtistByName } from "./artistRepositories";
