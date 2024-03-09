@@ -136,7 +136,7 @@ const Scrape = async (id, type) => {
 const SpotifyScraper = async () => {
   const artists = [
     "6qqNVTkY8uBg9cP3Jd7DAH",
-    // "3TVXtAsR1Inumwj472S9r4",
+    "3TVXtAsR1Inumwj472S9r4",
   ];
 
   for (const artist of artists) {
