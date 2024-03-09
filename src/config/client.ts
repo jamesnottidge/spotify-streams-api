@@ -1,5 +1,19 @@
+
 import { PrismaClient } from "@prisma/client";
 
-const prisma: PrismaClient = new PrismaClient();
+let prisma: PrismaClient;
 
-export default prisma;
+const getPrismaClient = () => {
+  if (!prisma) {
+    prisma = new PrismaClient();
+  }
+  return prisma;
+};
+
+prisma = new PrismaClient();
+
+process.on("beforeExit", () => {
+  if (prisma) {
+    prisma.$disconnect();
+  }
+});
